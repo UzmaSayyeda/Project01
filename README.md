@@ -16,7 +16,7 @@ We are utilizing two datasets within FiveThirtyEight's RAPTOR database:
 - Scipy, stats module.
 - Seaborn
 - Plotly.graph_objects
-- Plotly.express.
+- Plotly. express.
 ### Tool(s) required:
 - Jupyter notebook, pyviz environment.
 ## Intro
@@ -84,7 +84,7 @@ The top player for the 2022-2023 season is Nikola Jokic and the top team for the
 ![Without Lebron](/Visuals/Lebronless.png)  
 With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher-profile players like LeBron James have the ability to askew the RAPTOR total.
 
-![LeBron vs Kobe Line Plot](/Visuals/lebronvskobe.png)
+![LeBron vs Kobe Line Plot](/Visuals/LeBronvsKObe.png)
 Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their careers, given they’re from similar time periods and are both legendary players
 
 
