@@ -31,21 +31,21 @@ RAPTOR fulfills two long-standing goals:
 ## Project Goals
 - Does the amount of possessions per player greatly impact that player’s overall RAPTOR ratings? Why or why not?
 - Which team displayed the highest/lowest RAPTOR ratings across the 2022-23 season across all players? How does this data compare to their predictive PREDATOR model?
-- How accurate are the overall results of predictive-RAPTOR, which was used for the historical data charts (1977-2013), compared to those of modern - RAPTOR’s integration (2013-Present)? 
-- Is there a relationship between most minutes played and the greatest pace impact on the team compared to RAPTOR scores?
+- How accurate are the overall results of predictive-RAPTOR, which was used for the historical data charts (1977-2013), compared to those of modern-RAPTOR’s integration (2013-Present)? 
+- Is there a relationship between the most minutes played and the greatest pace impact on the team compared to RAPTOR scores?
 - How do these statistics line up by player in relation to the top players/teams (MVPs) of the 2022-2023 season?
-- Find out relationship between different features.
+- Find out the relationship between different features.
 
 ## Data Cleaning
-- There are two separate datasets for this challenge, the historical dataset which includes data from 1977-20xx and the latest dataset which is for 2023.  
+- There are two separate datasets for this challenge, the historical dataset which includes data from 1977-20xx, and the latest dataset which is for 2023.  
 - The first step was to import the datasets and then merge them. 
-- Then the datasets were checked for null values, there were some null values under historical data which was then filled and checked for duplicates, finally giving us our clean dataset to work with.
+- Then the datasets were checked for null values, there were some null values under historical data which were then filled and checked for duplicates, finally giving us our clean dataset to work with.
 ## Analysis
-After merging and cleaning the datasets, we defined some functions which were used through out our notebook.   
-we started our data exploration by looking at the average distribution of PREDATOR total, RAPTOR total and WAR total. ![histogram](/Visuals/histogram.png) 
+After merging and cleaning the datasets, we defined some functions which were used throughout our notebook.   
+we started our data exploration by looking at the average distribution of the PREDATOR total, RAPTOR total, and WAR total. ![histogram](/Visuals/histogram.png) 
 
-Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is correlation between those and to compare the RAPTOR results to actual results.!  
-![Correlation](/Visuals/correlation.png)
+Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is a correlation between those and to compare the RAPTOR results to actual results.!  
+![Correlation](/Visuals/Correlation.png)
 
 
 - Predator total and Raptor total have the strongest correlation
@@ -53,21 +53,21 @@ Our main goal was to evaluate how different variables influence the RAPTOR score
 - War total and minutes played have a strong correlation
 - Raptor total and possessions have a weak correlation.  
 
-The first variable we looked at was the amount of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation.  
+The first variable we looked at was the number of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation.  
 
 Along with the number of possessions, minutes played also play an important role in a player's performance when we compared average minutes played by a player with their RAPTOR scores we found out that there was a weak positive correlation as well.  
 
-Lastly we wanted to compare a player's pace impact in their team with their RAPTOR scores, we uncovered a negative correlation. We can conclude that although RAPTOR scores are effected by number of possessions and the minutes played, it isn't a strong correlation. 
+Lastly, we wanted to compare a player's pace impact on their team with their RAPTOR scores, we uncovered a negative correlation. We can conclude that although RAPTOR scores are affected by the number of possessions and the minutes played, it isn't a strong correlation. 
 
-Now that we had covered individual RAPTOR scores, we wanted to look at the teams. We continued looking at a team's highest and lowest RAPTOR scores across 2022-2023 season and compared it to their PREDATOR scores. Atlanta Hawks ranked first and Portland Trail Blazers ranked last. For the PREDATOR top was the Cleveland Cavaliers and the bottom was the Portland Trailblazers. The PREDATOR analysis predicted Portland correct and Cleveland was thrid overall. 
+Now that we had covered individual RAPTOR scores, we wanted to look at the teams. We continued looking at a team's highest and lowest RAPTOR scores across the 2022-2023 season and compared them to their PREDATOR scores. Atlanta Hawks ranked first and Portland Trail Blazers ranked last. For the PREDATOR top was the Cleveland Cavaliers and the bottom was the Portland Trailblazers. The PREDATOR analysis predicted Portland correctly and Cleveland was third overall. 
 
-Next, we wanted to look at how accurate the overall PREDATOR was which was used for historical dataset when comapred to modern RAPTOR integration.  
+Next, we wanted to look at how accurate the overall PREDATOR was which was used for the historical dataset when compared to modern RAPTOR integration.  
 
-The average RAPTOR total with the latest data shows more trends, because starting from 2013-14 player-tracking data became available online. The historical data uses a limited range of variables. With more data available, more accurate readings can be done as shown.  
+The average RAPTOR total with the latest data shows more trends because starting from 2013-14 player-tracking data became available online. The historical data uses a limited range of variables. With more data available, more accurate readings can be done as shown.  
 
-Lastly, we wanted to evalute How do these statistics line up by player in relation to the top players/teams (MVPs) of the 2022-2023 season.
+Lastly, we wanted to evaluate How do these statistics line up by player in relation to the top players/teams (MVPs) of the 2022-2023 season.
 
-The RAPTOR metrics used to identify the top players and teams were raptor total, raptor box total, raptor offense, raptor defense, raptor on/off total, war total, minutes played and possessions. Our statistical results line up with the top players and top teams for the 2022-2023 season. Our top player result is the NBA finals MVP and the top team result won the championship this season.
+The RAPTOR metrics used to identify the top players and teams were raptor total, raptor box total, raptor offense, raptor defense, raptor on/off total, war total, minutes played, and possessions. Our statistical results line up with the top players and top teams for the 2022-2023 season. Our top player result is the NBA finals MVP and the top team result won the championship this season.
 
 The top player for the 2022-2023 season is Nikola Jokic and the top team for the 2022-2023 season is the Denver Nuggets.
 
@@ -82,7 +82,7 @@ The top player for the 2022-2023 season is Nikola Jokic and the top team for the
 
 ![Lebron](/Visuals/Lebron.png)
 ![Without Lebron](/Visuals/Lebronless.png)  
-With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher profile players like LeBron James have the ability to askew the RAPTOR total.
+With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher-profile players like LeBron James have the ability to askew the RAPTOR total.
 
 ![LeBron vs Kobe Line Plot](/Visuals/lebronvskobe.png)
 Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their careers, given they’re from similar time periods and are both legendary players
@@ -99,7 +99,7 @@ Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their c
 
 RAPTOR fuels actual team/player performance, whereas PREDATOR fuels projections of team/player performance. Variables are essentially the same across, but FiveThirtyEight avoided poorly performing variables in out-of-sample testing when constructing RAPTOR, initially.
 
-- If we look at indvidual total RAPTOR scores, John Stockton is at number 1, where as for the average RAPTOR scores it is Stanley Umude.
+- If we look at individual total RAPTOR scores, John Stockton is at number 1, whereas for the average RAPTOR score, it is Stanley Umude.
 - Overall, LeBron has the highest peak-RAPTOR score, while Magic’s was the most consistent.
 - Of these players, Chris Paul has the widest range of RAPTOR scores.
 - Kobe Bryant’s 2014 (RS) total RAPTOR score is -6.28, compared to his highest of 9.08.
@@ -108,13 +108,13 @@ RAPTOR fuels actual team/player performance, whereas PREDATOR fuels projections 
 ## Limitations
 - Advanced metrics
 - Poor performing out-of-sample variables in constructing RAPTOR are avoided for PREDATOR.
-- We didn't consider regular season (RS) and playoff (PO) stats are two seperate entities often, like within the datasets.
+- We didn't consider regular season (RS) and playoff (PO) stats are two separate entities often, like within the datasets.
 - Various specifics such as coaching styles, team strategies, and the utilization of only larger sample sizes.
 - 
 ## Conclusions
 
-- Total PREDATOR and RAPTOR scores have the strongest correlation amongst all metrics
-RAPTOR includes a plethora of descriptive data types that are typically player-specific, but can be utilized to uncover data through individual player statistics, as well as from a team POV.
+- Total PREDATOR and RAPTOR scores have the strongest correlation among all metrics
+RAPTOR includes a plethora of descriptive data types that are typically player-specific but can be utilized to uncover data through individual player statistics, as well as from a team POV.
 - Individual players can drastically impact a team’s average and total RAPTOR scores.
 - There are specifics RAPTOR doesn’t vibe with as a predictive tool, such as utilizing smaller sample sizes, varying coaching styles, team strategies, and overall pace impact.
 - FiveThirtyEight’s RAPTOR model is a robust and intuitive choice for those looking for a more in-depth way of measuring individual player-tracking ability, as well as play-by-play data.
@@ -126,7 +126,7 @@ For dataset : [FiveThirtyEight](https://fivethirtyeight.com/features/how-our-rap
 [for importing image](https://mljar.com/blog/jupyter-notebook-insert-image/)  
 [Seaborn](https://seaborn.pydata.org/)  
 [Plotly](https://plotly.com/python/)  
-Specific debugging and code reference are included in comments before the code.
+Specific debugging and code references are included in comments before the code.
 
 ## Team Members
 - [Christopher](https://github.com/cbake105)
