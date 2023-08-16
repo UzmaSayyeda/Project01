@@ -45,7 +45,7 @@ After merging and cleaning the datasets, we defined some functions which were us
 we started our data exploration by looking at the average distribution of PREDATOR total, RAPTOR total and WAR total. ![histogram](/Visuals/histogram.png) 
 
 Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is correlation between those and to compare the RAPTOR results to actual results.!  
-[Correlation](/Visuals/correlation.png)
+![Correlation](/Visuals/correlation.png)
 
 
 - Predator total and Raptor total have the strongest correlation
@@ -89,7 +89,7 @@ Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their c
 
 
 
-## Additional Explanations
+
 
 ## Major Findings
 - Predator total and Raptor total have the strongest correlation
