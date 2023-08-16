@@ -44,7 +44,14 @@ RAPTOR fulfills two long-standing goals:
 After merging and cleaning the datasets, we defined some functions which were used through out our notebook.   
 we started our data exploration by looking at the average distribution of PREDATOR total, RAPTOR total and WAR total. ![histogram](/Visuals/histogram.png) 
 
-Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is correlation between those and to compare the RAPTOR results to actual results.![Correlation](/Visuals/Correlation.png)
+Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is correlation between those and to compare the RAPTOR results to actual results.!  
+[Correlation](/Visuals/correlation.png)
+
+
+- Predator total and Raptor total have the strongest correlation
+- Raptor total and pace impact have the weakest correlation
+- War total and minutes played have a strong correlation
+- Raptor total and possessions have a weak correlation.  
 
 The first variable we looked at was the amount of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation.  
 
@@ -66,11 +73,20 @@ The top player for the 2022-2023 season is Nikola Jokic and the top team for the
 
 ## Visuals
 
-![Boxplot](/Visuals/Boxplot.png)
+![Boxplot](/Visuals/Boxplot.png)  
+- Overall, LeBron has the highest peak-RAPTOR score, while Magic’s was the most consistent
+- Of these players, Chris Paul has the widest range of RAPTOR scores
+- Kobe Bryant’s 2014 (RS) total RAPTOR score is -6.28, compared to his highest of 9.08
+- LeBron’s total RAPTOR score of 16.07 in 2009 (PO) is the highest ever recorded
+
 
 ![Lebron](/Visuals/Lebron.png)
-![Without Lebron](/Visuals/Lebronless.png)
-![LeBron vs Kobe Line Plot](/Visuals/LeBronvsKObepng.png)
+![Without Lebron](/Visuals/Lebronless.png)  
+With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher profile players like LeBron James have the ability to askew the RAPTOR total.
+
+![LeBron vs Kobe Line Plot](/Visuals/lebronvskobe.png)
+Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their careers, given they’re from similar time periods and are both legendary players
+
 
 
 ## Additional Explanations
