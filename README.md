@@ -122,11 +122,12 @@ RAPTOR includes a plethora of descriptive data types that are typically player-s
 
 
 ## References 
-For dataset : [FiveThirtyEight](https://fivethirtyeight.com/features/how-our-raptor-metric-works/)  
-[More FiveThirtyEight](https://www.basketball-reference.com/about/bpm2.html)
-  [for importing image](https://mljar.com/blog/jupyter-notebook-insert-image/)  
-[Seaborn](https://seaborn.pydata.org/)  
-[Plotly](https://plotly.com/python/)  
+For dataset:
+[FiveThirtyEight](https://fivethirtyeight.com/features/how-our-raptor-metric-works/)
+  [More FiveThirtyEight](https://www.basketball-reference.com/about/bpm2.html)
+  [for importing image](https://mljar.com/blog/jupyter-notebook-insert-image/)
+  [Seaborn](https://seaborn.pydata.org/)
+  [Plotly](https://plotly.com/python/)  
 Specific debugging and code references are included in comments before the code.
 
 ## Team Members
