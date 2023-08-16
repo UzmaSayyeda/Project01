@@ -69,6 +69,13 @@ PREDATOR is a similar statistic to RAPTOR which is PREDictive rApTOR according t
 Next, we wanted to look at how accurate the overall PREDATOR was which was used for the historical dataset when compared to modern RAPTOR integration.  
 
 The average RAPTOR total with the latest data shows more trends because starting from 2013-14 player-tracking data became available online. The historical data uses a limited range of variables. With more data available, more accurate readings can be done as shown.  
+![Average Latest RAPTOR total](/Visuals/average_raptor_team_latest.png)
+![Average Historical RAPTOR total](/Visuals/average_raptor_team_historical.png)
+
+By comparing the latest performance data with historical records, we gain a holistic understanding of how basketball teams have evolved over time. This insightful analysis allows us to detect trends, shifts, and changes in performance metrics, providing a comprehensive view of teams' progress.
+The dynamic nature of basketball teams necessitates a close examination of their journey. Through this analysis, we can pinpoint the factors that contribute to fluctuations in performance metrics. By studying these results, we extract valuable insights that inform strategic decisions for sustained success.
+Assessing the evolution of RAPTOR—a predictive model—involves an intricate evaluation process. Scrutinizing data quality, refining modeling techniques, and aligning predictions with actual outcomes provide a comprehensive assessment of its effectiveness in capturing the complexities of basketball dynamics.
+Predictive models are invaluable tools for comprehending basketball trends and aiding decision-making. It's important, however, to acknowledge their limitations in encapsulating the full range of intricacies inherent in the sport. These models, while enhancing insights, need to be supplemented with contextual expertise for a well-rounded perspective.
 
 Lastly, we wanted to evaluate How do these statistics line up by player in relation to the top players/teams (MVPs) of the 2022-2023 season.
 
