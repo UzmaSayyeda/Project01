@@ -45,7 +45,8 @@ RAPTOR fulfills two long-standing goals:
   
 ## Analysis
 After merging and cleaning the datasets, we defined some functions which were used throughout our notebook.   
-we started our data exploration by looking at the average distribution of the PREDATOR total, RAPTOR total, and WAR total. ![histogram](/Visuals/histogram.png) 
+
+We started our data exploration by looking at the average distribution of the PREDATOR total, RAPTOR total, and WAR total. ![histogram](/Visuals/histogram.png) 
 
 Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is a correlation between those and to compare the RAPTOR results to actual results. ![Correlation](/Visuals/corr.png)
 
@@ -54,7 +55,7 @@ Our main goal was to evaluate how different variables influence the RAPTOR score
 - War total and minutes played have a strong correlation
 - Raptor total and possessions have a weak correlation.  
 
-The first variable we looked at was the number of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation. ![Linear Regression - Poss](/Visuals/avg_poss_teams.png)
+The first variable we looked at was the number of possessions per player. We did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation. ![Linear Regression - Poss](/Visuals/avg_poss_teams.png)
 
 Along with the number of possessions, minutes played also play an important role in a player's performance when we compared average minutes played by a player with their RAPTOR scores we found out that there was a weak positive correlation as well.  
 
