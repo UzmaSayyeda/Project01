@@ -62,6 +62,7 @@ Along with the number of possessions, minutes played also play an important role
 Lastly, we wanted to compare a player's pace impact on their team with their RAPTOR scores, we uncovered a negative correlation. We can conclude that although RAPTOR scores are affected by the number of possessions and the minutes played, it isn't a strong correlation. 
 
 Now that we had covered individual RAPTOR scores, we wanted to look at the teams. We continued looking at a team's highest and lowest RAPTOR scores across the 2022-2023 season and compared them to their PREDATOR scores. Atlanta Hawks ranked first and Portland Trail Blazers ranked last. For the PREDATOR top was the Cleveland Cavaliers and the bottom was the Portland Trailblazers. The PREDATOR analysis predicted Portland correctly and Cleveland was third overall. 
+PREDATOR is a similar statistic to RAPTOR which is PREDictive rApTOR according to Fivethirtyeight. Fivethirtyeight lists what a player’s PREDATOR score is based on: Age, Draft position, NBA career length, Height, Weight, Position, and Recent All-NBA, MVP and All-Star appearances. For Rookies heading into their first season, the data also considers the college program, international league. Without going further into detail with individual statistics, the data collected shows the average of the PREDATOR score per team. It was found that CLE(Cleveland Cavaliers) were suppose to have the highest RAPTOR total. For RAPTOR they finished in 3rd.  They finished the season in 4th place with 51 wins and 31 losses. The PREDATOR model showed POR(Portland Trail Blazers) being last. If the analysis just had these two teams, you could say there was a strong positive correlation to good and bad teams for RAPTOR and PREDATOR. However, the top 10 teams and the bottom 10 teams, there is a positive correlation with the lower teams than higher teams. When looking at the average and above average teams, we can see some inconsistencies in the analysis. The reason for strong correlation for bottom teams with RAPTOR and PREDATOR with bottom teams is the absence of measuring team chemistry, team playstyle and coaches’ chemistry with players. It would be reasonable to get the bottom teams more accurate because they do not have those characteristics in the first place. 
 
 Next, we wanted to look at how accurate the overall PREDATOR was which was used for the historical dataset when compared to modern RAPTOR integration.  
 
@@ -107,8 +108,7 @@ RAPTOR fuels actual team/player performance, whereas PREDATOR fuels projections 
 - Advanced metrics
 - Poor performing out-of-sample variables in constructing RAPTOR are avoided for PREDATOR.
 - We didn't consider regular season (RS) and playoff (PO) stats are two separate entities often, like within the datasets.
-- Various specifics such as coaching styles, team strategies, and the utilization of only larger sample sizes.
-- 
+- Various specifics such as coaching styles, team strategies, and the utilization of only larger sample sizes. 
 ## Conclusions
 
 - Total PREDATOR and RAPTOR scores have the strongest correlation among all metrics
