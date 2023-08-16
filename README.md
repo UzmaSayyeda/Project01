@@ -41,29 +41,29 @@ Then the datasets were checked for null values, there were some null values unde
 ## Analysis
 - If we were to find a relationship between the total minutes played by a player and the pace impact for their team in reference to their RAPTOR scores, we can see that there is a weak but a positive correlation between the total minutes played and RAPTOR scores. When we look at the total pace impact for their teams, there isn’t any strong indication that the amount of time they played overall impacts the pace.
 ## Visuals
-![histogram](../RAPTOR-Analysis/Project%201%20Files/Visuals/histogram.png)
+![histogram](/Visuals/histogram.png)
 
 - 
 - 
-![Boxplot](../RAPTOR-Analysis/Project%201%20Files/Visuals/Boxplot.png)
+![Boxplot](/Visuals/Boxplot.png)
 
 - 
 - 
-![Correlation](../RAPTOR-Analysis/Project%201%20Files/Visuals/Correlation.png)
-
-- 
-- 
-
-![Lebron](../RAPTOR-Analysis/Project%201%20Files/Visuals/Lebron.png)
+![Correlation](/Visuals/Correlation.png)
 
 - 
 - 
 
-![Without Lebron](../RAPTOR-Analysis/Project%201%20Files/Visuals/Lebronless.png)
+![Lebron](/Visuals/Lebron.png)
 
 - 
 - 
-![LeBron vs Kobe Line Plot](../RAPTOR-Analysis/Project%201%20Files/Visuals/LeBronvsKObepng.png)
+
+![Without Lebron](/Visuals/Lebronless.png)
+
+- 
+- 
+![LeBron vs Kobe Line Plot](/Visuals/LeBronvsKObepng.png)
 
 - 
 - 
