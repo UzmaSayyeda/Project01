@@ -13,12 +13,14 @@ We are utilizing two datasets within FiveThirtyEight's RAPTOR database:
 - Pandas
 - Numpy
 - Matplotlin
-- Scipy, stats module.
+- Scipy, stats module
 - Seaborn
 - Plotly.graph_objects
-- Plotly. express.
+- Plotly. express
+  
 ### Tool(s) required:
-- Jupyter notebook, pyviz environment.
+- Jupyter notebook, pyviz environment
+  
 ## Intro
 RAPTOR (Robust Algorithm (using) Player Tracking (and) On/Off Ratings) is a modern-day plus-minus statistical analysis developed by FiveThirtyEight. The main component of this system measures the number of points a player contributes to his team’s offense/defense per 100 possessions, relative to a league-average player.  
 
@@ -38,22 +40,21 @@ RAPTOR fulfills two long-standing goals:
 
 ## Data Cleaning
 - There are two separate datasets for this challenge, the historical dataset which includes data from 1977-20xx, and the latest dataset which is for 2023.  
-- The first step was to import the datasets and then merge them. 
-- Then the datasets were checked for null values, there were some null values under historical data which were then filled and checked for duplicates, finally giving us our clean dataset to work with.
+- The first step was to import the datasets and then merge them into one sheet.
+- Then, the datasets were checked for null values. There were some null values under historical data, which were then filled and checked for duplicates, finally giving us our clean dataset to work with.
+  
 ## Analysis
 After merging and cleaning the datasets, we defined some functions which were used throughout our notebook.   
 we started our data exploration by looking at the average distribution of the PREDATOR total, RAPTOR total, and WAR total. ![histogram](/Visuals/histogram.png) 
 
-Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is a correlation between those and to compare the RAPTOR results to actual results.!  
-![Correlation](/Visuals/corr.png)
-
+Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is a correlation between those and to compare the RAPTOR results to actual results. ![Correlation](/Visuals/corr.png)
 
 - Predator total and Raptor total have the strongest correlation
 - Raptor total and pace impact have the weakest correlation
 - War total and minutes played have a strong correlation
 - Raptor total and possessions have a weak correlation.  
 
-The first variable we looked at was the number of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation.  
+The first variable we looked at was the number of possessions per player. we did this by creating a scatter plot and a regression line, which showcased a weak, but positive correlation. ![Linear Regression - Poss](/Visuals/avg_poss_teams.png)
 
 Along with the number of possessions, minutes played also play an important role in a player's performance when we compared average minutes played by a player with their RAPTOR scores we found out that there was a weak positive correlation as well.  
 
@@ -79,15 +80,12 @@ The top player for the 2022-2023 season is Nikola Jokic and the top team for the
 - Kobe Bryant’s 2014 (RS) total RAPTOR score is -6.28, compared to his highest of 9.08
 - LeBron’s total RAPTOR score of 16.07 in 2009 (PO) is the highest ever recorded
 
-
 ![Lebron](/Visuals/Lebron.png)
 ![Without Lebron](/Visuals/Lebronless.png)  
+
 With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher-profile players like LeBron James have the ability to askew the RAPTOR total.
 
 ![LeBron vs Kobe Line Plot](/Visuals/lk.png)
-
-
-
 
 
 ## Major Findings
