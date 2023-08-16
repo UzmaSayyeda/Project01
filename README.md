@@ -45,7 +45,7 @@ After merging and cleaning the datasets, we defined some functions which were us
 we started our data exploration by looking at the average distribution of the PREDATOR total, RAPTOR total, and WAR total. ![histogram](/Visuals/histogram.png) 
 
 Our main goal was to evaluate how different variables influence the RAPTOR scores and if there is a correlation between those and to compare the RAPTOR results to actual results.!  
-![Correlation](/Visuals/correlation.png)
+![Correlation](/Visuals/corr.png)
 
 
 - Predator total and Raptor total have the strongest correlation
@@ -84,8 +84,7 @@ The top player for the 2022-2023 season is Nikola Jokic and the top team for the
 ![Without Lebron](/Visuals/Lebronless.png)  
 With the removal of LeBron James, the RAPTOR total per team decreases for every season. Therefore, higher-profile players like LeBron James have the ability to askew the RAPTOR total.
 
-![LeBron vs Kobe Line Plot](/Visuals/lebronvskobe.png)
-Comparing LeBron James’ and Kobe Bryant’s total RAPTOR scores across their careers, given they’re from similar time periods and are both legendary players
+![LeBron vs Kobe Line Plot](/Visuals/lk.png)
 
 
 
