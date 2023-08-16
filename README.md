@@ -113,6 +113,7 @@ RAPTOR fuels actual team/player performance, whereas PREDATOR fuels projections 
 
 - Total PREDATOR and RAPTOR scores have the strongest correlation among all metrics
 RAPTOR includes a plethora of descriptive data types that are typically player-specific but can be utilized to uncover data through individual player statistics, as well as from a team POV.
+-RAPTOR and PREDATOR are more accurate with losing teams than winning teams becasuse they do not account for team chemistry and 
 - Individual players can drastically impact a team’s average and total RAPTOR scores.
 - There are specifics RAPTOR doesn’t vibe with as a predictive tool, such as utilizing smaller sample sizes, varying coaching styles, team strategies, and overall pace impact.
 - FiveThirtyEight’s RAPTOR model is a robust and intuitive choice for those looking for a more in-depth way of measuring individual player-tracking ability, as well as play-by-play data.
